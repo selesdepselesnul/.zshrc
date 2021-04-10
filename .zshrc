@@ -14,7 +14,7 @@ export PATH="$PATH:/home/morrisseymarr/.emacs.d/bin/:/home/morrisseymarr/.local/
 alias nangtung='cd /home/morrisseymarr/Playground/nangtung && nohup node nangtung.js 15 120 &'
 alias poekan='echo 40 | sudo tee -a /sys/class/backlight/intel_backlight/brightness'
 alias startx='SBCL_HOME=/usr/lib/sbcl/ startx'
-
+alias deden.xyz='ssh app@deden.xyz'
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
 # a theme from this variable instead of looking in $ZSH/themes/
@@ -104,3 +104,4 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+#
